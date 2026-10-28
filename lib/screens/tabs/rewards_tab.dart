@@ -311,7 +311,7 @@ class _RewardsTabState extends State<RewardsTab> {
                               child: Row(
                                 children: [
                                   const Icon(
-                                    Icons.monetization_on_rounded,
+                                    Icons.star_rounded,
                                     size: 14,
                                     color: AppTheme.accentGold,
                                   ),

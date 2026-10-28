@@ -139,7 +139,7 @@ class _QuizPlayScreenState extends State<QuizPlayScreen> {
                 child: Row(
                   children: [
                     const Icon(
-                      Icons.monetization_on_rounded,
+                      Icons.star_rounded,
                       size: 13,
                       color: AppTheme.accentGold,
                     ),

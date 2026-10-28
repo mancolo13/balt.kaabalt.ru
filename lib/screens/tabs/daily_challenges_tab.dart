@@ -338,7 +338,7 @@ class DailyChallengesTab extends StatelessWidget {
                                 const SizedBox(width: 8),
                                 Row(
                                   children: [
-                                    const Icon(Icons.monetization_on_rounded,
+                                    const Icon(Icons.star_rounded,
                                         color: AppTheme.accentGold, size: 12),
                                     const SizedBox(width: 2),
                                     Text(

@@ -690,7 +690,7 @@ class _QuizzesTabState extends State<QuizzesTab> {
                               Row(
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
-                                  const Icon(Icons.monetization_on_rounded, color: AppTheme.accentGold, size: 12),
+                                  const Icon(Icons.star_rounded, color: AppTheme.accentGold, size: 12),
                                   const SizedBox(width: 2),
                                   Text(
                                     '+100',

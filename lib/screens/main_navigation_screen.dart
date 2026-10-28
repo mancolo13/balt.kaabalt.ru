@@ -102,15 +102,6 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
                           letterSpacing: 0.8,
                         ),
                       ),
-                      Text(
-                        'БЕТ',
-                        style: GoogleFonts.inter(
-                          fontSize: 14,
-                          fontWeight: FontWeight.w900,
-                          color: Colors.white,
-                          letterSpacing: 0.8,
-                        ),
-                      ),
                       const SizedBox(width: 6),
                       // LIVE Indicator Badge
                       Container(
@@ -182,7 +173,10 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
           // Coins chip in Baltbet Gold
           FittedBox(
             fit: BoxFit.scaleDown,
-            child: Container(
+            child: InkWell(
+              onTap: () => setState(() => _currentIndex = 2),
+              borderRadius: BorderRadius.circular(8),
+              child: Container(
               margin: const EdgeInsets.symmetric(vertical: 12, horizontal: 3),
               padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 3),
               decoration: BoxDecoration(
@@ -194,7 +188,7 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   const Icon(
-                    Icons.monetization_on_rounded,
+                    Icons.star_rounded,
                     color: AppTheme.accentGold,
                     size: 13,
                   ),
@@ -210,6 +204,7 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
                 ],
               ),
             ),
+          ),
           ),
 
           // Rank badge chip
